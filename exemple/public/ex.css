@@ -1,0 +1,57 @@
+body{
+    text-align: center;
+    background-image: url(./fond.jpg);
+}
+
+h1{
+    background-color: rebeccapurple;
+    color: white;
+    width: 80%;
+    padding: 0.5em;
+    margin: auto;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+
+#article{
+    margin: auto;
+    width: 80%;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+#gauche{
+    background-color: limegreen;
+    width: 50%;
+}
+
+#droite{
+    background-color: lightblue;
+    width: 50%;
+}
+
+#tableau{
+    width: 100%;
+}
+
+table{
+    width : 100%;
+    border-collapse: collapse;
+}
+
+table, td{
+    border: 1px solid black;
+}
+
+.bg_grey{
+    background-color: lightgrey;
+}
+
+.border_bold{
+    border: 3px solid black;
+}

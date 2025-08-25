@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="../public/ex.css">
+    <link rel="stylesheet" href="../public/form.css">
+</head>
+<body>
+    <H1>Formulaire</H1>
+    <form action="suivant.html" method="post">
+        <label for="fname">Prénom:</label><br>
+        <input type="text" id="fname" name="fname" placeholder="Toto" required><br>
+        <label for="lname">Nom:</label><br>
+        <input type="text" id="lname" name="lname" disabled><br><br>
+        <label for="date">Date:</label><br>
+        <input type="date" name="date" id="date"><br><br>
+        <label for="ok">Etes-vous ok avec les conditions d'utilisation du site :</label>
+        <input type="checkbox" name="ok" id="ok">
+        <button type="submit">Valider</button>
+      </form>
+</body>
+</html>

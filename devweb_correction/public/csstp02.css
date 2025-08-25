@@ -1,0 +1,56 @@
+#page{
+	display: flex;
+	flex-direction: row;
+	width: 50%;
+	align-items: stretch;
+}
+
+#aGauche{
+	display: flex;
+	flex-direction: column;
+	flex:1;
+}
+
+#hautGauche{
+	height : 150px;
+	text-align : center;
+	background-color : red;
+}
+
+#basGauche{
+	height : 150px;
+	text-align : center;
+	background-color : green;
+}
+
+#aDroite{
+	background-color : blue;
+	flex:1;
+}
+
+h1{
+	font-size : 26;
+	font-weight : bold;
+}
+
+.maListe{
+	display : list-item;
+	list-style-type : disc;
+	list-style-position : inside;
+}
+
+.type{
+	color : red;	
+}
+
+div img{
+	position : absolute;
+	top : 50px;
+	left : 50px;
+	height : 100px;
+	width : 100px;
+}
+
+a{
+	display: block;
+}

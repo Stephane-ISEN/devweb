@@ -1,0 +1,16 @@
+form{
+    width: 80%;
+    margin:auto;
+}
+
+fieldset{
+    text-align: center;
+}
+
+p{
+    display: block;
+}
+
+button{
+    margin-top: 2em;
+}

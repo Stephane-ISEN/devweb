@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8"/>
+		<title>formulaire</title>
+	</head>
+	<body>
+		<!--<form method="post" action="mailto:jamin.normand@gmail.Com">-->
+		<form method="get" action="http://www.serveur.com/application/page.php">
+			<p>
+				<label for="nom">Veuillez saisir votre nom</label>
+				<input type="text" id="nom" name="nom" size="30" value="Saisir ici" />
+				<input type="radio" id="monsieur" name="sexe" value="h" checked/>
+				<label for="monsieur">M.</label>
+				<input type="radio" id="madame" name="sexe" value="f"/>
+				<label for="madame">Mme.</label>
+			</p>
+			<p>
+				<label for="jour">Cours du : </label>
+				<select id="jour" name="jour" size="1">
+					<option value="lundi">Lundi</option>
+					<option value="mardi" selected>Mardi</option>
+					<option value="mercredi">Mercredi</option>
+				</select>
+			</p>
+
+			<p>
+				<input type="checkbox" id="redoublant" name="redoublant" value="1"/>
+				<label for="reboublant">Cantine</label>
+			</p>
+
+			<p>
+				<button type="submit" name="commande" value="Inscription">Inscription</button>
+				<button type="reset" name="raz" value="raz">raz</button>				
+			</p>
+		</form>
+	</body>
+</html>

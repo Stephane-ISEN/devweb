@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8"/>
+		<title>petit formulaire</title>
+		<link rel = "stylesheet" type = "text/css" href = "style.css"/>
+	</head>
+	<body>
+        <form method="get" action="reponse.php">
+            <fieldset>
+            <input type="radio" id="monsieur" name="sexe" value="h" checked/>
+            <label for="monsieur">M.</label>
+            <input type="radio" id="madame" name="sexe" value="f"/>
+            <label for="madame">Mme.</label>
+
+            <label for="textName">Nom</label>
+            <input type = "text" id="textName" name="textName"/>
+
+            <button type = "submit" id = "envoi" name="commande" value="Envoyer">
+            Envoyer </button>
+            </fieldset>
+            </form>
+    </body>
+</html>
